@@ -2,15 +2,15 @@ import 'package:audiofileplayer/audiofileplayer.dart';
 import 'package:flutter/material.dart';
 
 // ignore: camel_case_types
-class xilofono extends StatefulWidget {
-  const xilofono({Key? key}) : super(key: key);
+class Xilofono extends StatefulWidget {
+  const Xilofono({Key? key}) : super(key: key);
 
   @override
-  State<xilofono> createState() => _xilofonoState();
+  State<Xilofono> createState() => _XilofonoState();
 }
 
 // ignore: camel_case_types
-class _xilofonoState extends State<xilofono> {
+class _XilofonoState extends State<Xilofono> {
   void sounds(int noteNumber) {
     setState(() {
       Audio.load('assets/sounds/note$noteNumber.wav')
