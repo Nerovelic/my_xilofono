@@ -10,7 +10,7 @@ class my_home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Ionicons.logo_github),
+        leading: const Icon(Ionicons.logo_soundcloud),
       ),
       body: const xilofono(),
     );
