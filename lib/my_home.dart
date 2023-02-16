@@ -3,8 +3,8 @@ import 'package:ionicons/ionicons.dart';
 import 'package:my_xilofono/Xilofono.dart';
 
 // ignore: camel_case_types
-class My_home extends StatelessWidget {
-  const My_home({Key? key}) : super(key: key);
+class My_Home extends StatelessWidget {
+  const My_Home({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
